@@ -10,15 +10,15 @@ Recruiters face an overwhelming challenge: parsing through thousands of resumes 
 ##  System Architecture
 Our end-to-end pipeline ensures accurate feature extraction and fair scoring:
 
-1. ** Data Loader:** Ingests the candidate dataset (CSV/JSON).
-2. ** Feature Extractor:** Pulls key signals: Skills, Experience, Education, Certifications, and Projects.
-3. **Reasoning Engine:** Evaluates extracted features against JD requirements.
-4. **Scoring Module:** Applies custom rule-based weighted scoring.
-5. ** Ranking Engine:** Sorts by highest score and applies tie-breakers.
-6. ** Validation:** Ensures no hallucinations and formatting compliance.
-7. ** Submission File:** Outputs the final Top 100 in CSV/XLSX format.
+1.  Data Loader: Ingests the candidate dataset (CSV/JSON).
+2. Feature Extractor:Pulls key signals: Skills, Experience, Education, Certifications, and Projects.
+3. Reasoning Engine: Evaluates extracted features against JD requirements.
+4. Scoring Module:Applies custom rule-based weighted scoring.
+5. Ranking Engine:Sorts by highest score and applies tie-breakers.
+6.  Validation: Ensures no hallucinations and formatting compliance.
+7. Submission File: Outputs the final Top 100 in CSV/XLSX format.
 
-## 💻 Tech Stack
+## Tech stack
 * **Language:** Python
 * **Data Processing:** JSON, CSV, XLSX
 * **Logic:** Custom Rule-Based Scoring Engine / Feature Extraction Algorithms
